@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+}
+html {
+  line-height: 4rem;
+}
+body {
+  font-size: 1.9rem;
+  font-family: "Montserrat", "Segoe UI", "Helvetica", sans-serif;
+  background: #D5D5D6;
+  max-width: 100%;
+}
+
+/* copyboard style */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.1rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 77.5%;
+  left:0;
+  opacity: 0;
+  transition: opacity 0.25s ease-in;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.tooltip:focus .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* end of copyboard code */
+
+.content {
+  text-align: center;
+}
+
+.content .about {
+  background-color: #335C67;
+  padding: 0 0;
+  padding-top: 3rem;
+  color: #fff;
+}
+
+.content .about h1 {
+  letter-spacing: 0.4rem;
+}
+
+.content .about h5 {
+  letter-spacing: 0.2rem;
+}
+
+.content .mainKey {
+  letter-spacing: 0.5rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 5rem 0;
+}
