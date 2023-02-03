@@ -10,8 +10,8 @@
 
 ---
 
-##### The MIT License (MIT)
+##### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Copyright (c) [2023] [matheusdsm / justonedev]
+> ##### Copyright (c) [2023] [matheusdsm / justonedev]
 
 
