@@ -1,14 +1,13 @@
-* {
-  padding: 0;
-}
+
 html {
-  line-height: 4rem;
+  line-height: 2.4rem;
 }
 body {
   font-size: 1.9rem;
   font-family: "Montserrat", "Segoe UI", "Helvetica", sans-serif;
-  background: #D5D5D6;
+  background: #d5d5d6;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* copyboard style */
@@ -26,17 +25,18 @@ body {
   text-align: center;
   border-radius: 6px;
   padding: 0.1rem;
-  position: absolute;
+  position: relative;
   z-index: 1;
-  bottom: 77.5%;
-  left:0;
+  bottom: 75%;
+  left: 0;
   opacity: 0;
+  cursor: pointer;
   transition: opacity 0.25s ease-in;
 }
 
 .tooltip .tooltiptext::after {
   content: "";
-  position: absolute;
+  position: relative;
   top: 100%;
   left: 50%;
   margin-left: -5px;
@@ -64,9 +64,9 @@ body {
 }
 
 .content .about {
-  background-color: #335C67;
+  background-color: #335c67;
   padding: 0 0;
-  padding-top: 3rem;
+  padding-top: 2rem;
   color: #fff;
 }
 
@@ -82,5 +82,27 @@ body {
   letter-spacing: 0.5rem;
   cursor: pointer;
   text-decoration: underline;
-  padding: 5rem 0;
+}
+
+.content .previousKey {
+  opacity: 0.25;
+}
+
+.content .previousKey .key {
+  text-decoration: line-through;
+}
+
+.github-link {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.github-link img {
+  min-width: 90px;
+  min-height: 90px;
+  transition: opacity 0.275s ease-in;
+}
+
+.github-link img:hover {
+  opacity: 0.7;
 }
