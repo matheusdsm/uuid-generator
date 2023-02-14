@@ -1,13 +1,14 @@
-
 html {
-  line-height: 2.4rem;
+  line-height: 2.5rem;
+  max-width: 100%;
 }
 body {
   font-size: 1.9rem;
   font-family: "Montserrat", "Segoe UI", "Helvetica", sans-serif;
-  background: #d5d5d6;
+  background: #FDFFFC;
   max-width: 100%;
   overflow-x: hidden;
+  font-weight: 500;
 }
 
 /* copyboard style */
@@ -15,6 +16,7 @@ body {
 .tooltip {
   position: relative;
   display: inline-block;
+  word-break: break-word;
 }
 
 .tooltip .tooltiptext {
@@ -61,13 +63,14 @@ body {
 
 .content {
   text-align: center;
+  word-wrap: break-word;
 }
 
 .content .about {
-  background-color: #335c67;
-  padding: 0 0;
+  width: 100%;
+  padding: 0 1rem;
   padding-top: 2rem;
-  color: #fff;
+  color: #222;
 }
 
 .content .about h1 {
@@ -76,12 +79,15 @@ body {
 
 .content .about h5 {
   letter-spacing: 0.2rem;
+  font-size: 1.2rem
 }
 
 .content .mainKey {
   letter-spacing: 0.5rem;
   cursor: pointer;
   text-decoration: underline;
+  word-wrap: break-word;
+  color: #8C86AA;
 }
 
 .content .previousKey {
