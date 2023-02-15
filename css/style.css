@@ -5,7 +5,7 @@ html {
 body {
   font-size: 1.9rem;
   font-family: "Montserrat", "Segoe UI", "Helvetica", sans-serif;
-  background: #FDFFFC;
+  background: #fdfffc;
   max-width: 100%;
   overflow-x: hidden;
   font-weight: 500;
@@ -26,13 +26,16 @@ body {
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 0.1rem;
+  padding: 0.4rem;
   position: relative;
   z-index: 1;
   bottom: 75%;
   left: 0;
+  top: -10rem;
   opacity: 0;
   cursor: pointer;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
   transition: opacity 0.25s ease-in;
 }
 
@@ -59,6 +62,7 @@ body {
   cursor: pointer;
 }
 
+
 /* end of copyboard code */
 
 .content {
@@ -79,7 +83,7 @@ body {
 
 .content .about h5 {
   letter-spacing: 0.2rem;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 .content .mainKey {
@@ -87,7 +91,7 @@ body {
   cursor: pointer;
   text-decoration: underline;
   word-wrap: break-word;
-  color: #8C86AA;
+  color: #8c86aa;
 }
 
 .content .previousKey {
@@ -96,6 +100,19 @@ body {
 
 .content .previousKey .key {
   text-decoration: line-through;
+}
+
+.content .button-gen-new button {
+  color: #222;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.content .button-gen-new button:hover {
+  padding: 0.5rem 1.75rem;
 }
 
 .github-link {
