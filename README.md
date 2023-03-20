@@ -2,11 +2,11 @@
 
 ---
 
-##### shorthand uuid generator using Vanilla Javascript. just open page and the magic occurs.
+shorthand uuid generator using Vanilla Javascript. just open page and the magic occurs.
 
 ---
 
-[Generator](https://matheusdsm.github.io/uuid-generator/) was built using [GitHub Pages](https://matheusdsm.github.io/uuid-generator/).
+[Generator](https://matheusdsm.github.io/uuid-generator/) was deployed using [GitHub Pages](https://matheusdsm.github.io/uuid-generator/).
 
 ---
 
